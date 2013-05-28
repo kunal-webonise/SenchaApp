@@ -67,7 +67,7 @@ Ext.application({
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('GS.view.Home'));
+        Ext.Viewport.add(Ext.create('GS.view.Main'));
     },
 
     onUpdated: function() {
