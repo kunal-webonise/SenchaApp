@@ -1,5 +1,5 @@
 Ext.define('GS.view.Main', {
-    extend: 'Ext.Panel',
+    extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
@@ -7,23 +7,38 @@ Ext.define('GS.view.Main', {
     ],
     config: {
         tabBarPosition: 'bottom',
-
         items: [
             {
-               xtype: 'homepanel1'
+                xtype: 'homepage'
             } ,
             {
-                xtype: 'panel' ,
-                html: "<div>welcome</div>"
-            } ,
+                xtype: 'contactForm'
+            },
+            {
+                xtype: 'blog'
+            }]
 
-            {
-                type: 'userList',
-                xtype: 'list',
-                height: 400,
-                itemTpl: '<div>{title}</div>',
-               store: "User"
-            }
-        ]
     }
 });
+
+
+//Ext.define('GS.view.Main', {
+//    extend: 'Ext.tab.Panel',
+//    xtype: 'main',
+//    requires: [
+//        'Ext.TitleBar',
+//        'Ext.Video'
+//    ],
+//    config: {
+//        tabBarPosition: 'bottom',
+//
+//        items: [
+//            {
+//                xtype: 'homepage'
+//            } ,
+////            {
+////                xtype: 'contactForm'
+////            }
+//        ]
+//    }
+//});
