@@ -8,9 +8,9 @@ Ext.define("GS.view.Home",{
         scrollable: true,
         styleHtmlContent: true,
         html: [
-            '<img src="http://staging.sencha.com/img/sencha.png" />',
-            '<h1>HOME PAGE</h1>',
-            "<p>API Example</p>",
+            '<img src="http://www.drf.com/sites/all/themes/drf/images/DRF_Logo2.png" />',
+            '<h1>PLAYING WITH APIS</h1>',
+            "<h3></h3>",
         ].join("")
     }
 })

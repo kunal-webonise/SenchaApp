@@ -13,7 +13,7 @@ Ext.define('GS.store.User', {
 //        }]
         proxy:{
             type: 'jsonp',
-            url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/SenchaBlog",
+            url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/IPL",
             reader:{
                 type: 'json',
                 rootProperty: 'responseData.feed.entries'

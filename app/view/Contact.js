@@ -2,7 +2,7 @@ Ext.define("GS.view.Contact",{
     extend: 'Ext.form.Panel',
     xtype: 'contactForm',
     requires: [
-        'Ext.form.FieldSet', 'Ext.field.Email'
+        'Ext.form.FieldSet', 'Ext.field.Email' ,"Ext.data.proxy.JsonP", "Ext.dataview.List"
     ],
     config: {
         title: "Contact",

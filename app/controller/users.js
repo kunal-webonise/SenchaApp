@@ -3,7 +3,8 @@ Ext.define('GS.controller.users', {
     config: {
         views:['GS.view.Main'],
         refs: {
-            userList: "main list[type='userList']"
+            userList: "main list[type='userList']",
+            blog: "blog"
         },
         control: {
             userList: {
@@ -23,6 +24,14 @@ Ext.define('GS.controller.users', {
     },
 
     onUserListTap: function( _this, index, target, record, e, eOpts){
-        Ext.Msg.alert('Status',record.get('name'),Ext.emptyFn);
+//        Ext.Msg.alert('Link',record.get('link'));
+        console.log(record.get("author"));
+        var blog_view = Ext.create("GS.view.BlogView");
+        blog_view.setRecord(record)
+        var blog = this.getBlog();
+        blog.push(blog_view);
+        console.log("index: "+index);
+        console.log(record);
+
     }
 });

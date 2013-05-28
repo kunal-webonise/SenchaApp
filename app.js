@@ -34,7 +34,7 @@ Ext.application({
     'User'
     ],
     views: [
-        'Main' ,"Home", "Contact","Blog"
+        'Main' ,"Home", "Contact","Blog", "BlogView"
     ],
 
     stores: [
