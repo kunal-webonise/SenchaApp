@@ -14,6 +14,9 @@
     },
     "app.scss.tpl.merge": {
       "185c5374133b44981799fe044947175520c8917e": "eJxtkTtywzAMRHudAp0rSwdw42ukhEhI5ATkakgwsW4fepJJI7ZvsfgsnjEdKEa3KtkFvhuaC4uXjZvawqq3xzQtC32gUeKTiiR8CXE+CRtZENqgiu+Yd0rwTaV2ykYn2tvnQRlGrQrFTCheChnIFWHrbaimPqMzVyttUWWenjE7bV7ob6ODs+jjgtdmhlyvQg0idsVHdJ9Srtx4HTQxQFcelf8K9w0lDXwxe3kNjRrrYCvlntOAOy7omQ3ufg++0lT3Fa//V/U8WzUkcug1O/pTghSZ5/kHAqywZg\u003d\u003d"
+    },
+    "{modelFileName}.js.tpl.merge": {
+      "0fadfbeb5015f7a304a0de6182fa75814bd00c01": "eJxtkc9ugzAMxu88hVWpMqgo66786U49bi+AOEQQ2khpiCBUTFHefQlZWdHqAw62f18+zHnWpGUdlyxGQ5X6ojdmya1vmSBG+hdMwUTggs2ayTYDPHuGako+/RimS3d5NL3s+CX7BXx0nIl2zKAy+7Xm407FxEYS2lBC3E2y0byX7rTUkieRVawfIL7TAQamHVPVKSg6aM8HiIxKcB1jikkK3JWPuUtFmCKCyYu+5nA48FfqwdYAneMWoOL1QzDDJH8JOCdETeM1NuC3lUFXHZ0t/a2W83sN9gVpo38lJzQN0qd827RJvFnWk9zeFloJv5ZyF5q704Z9mML1VwZjaHy2CNZUM5ctm6EsYW76SWr4AERwMynWtnhzF/xp1lFw777pBy6fljw\u003d"
     }
   },
   "targets": {
@@ -23,10 +26,10 @@
       "parameters": {
         "appName": "GS",
         "frameworkPath": "touch",
-        "appModels": "",
-        "appControllers": "",
-        "appStores": "",
-        "appViews": "Main"
+        "appModels": "User",
+        "appControllers": "users",
+        "appStores": "User",
+        "appViews": "Blog,Contact,Home,Main"
       }
     },
     "packager.json": {
@@ -95,6 +98,16 @@
         "appStores": "",
         "appViews": "",
         "uniqueId": "d1bb2ad5-18ef-4f65-8eec-3ab2622dfe2b"
+      }
+    },
+    "app/model/User.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "0fadfbeb5015f7a304a0de6182fa75814bd00c01",
+      "parameters": {
+        "appName": "GS",
+        "modelFileName": "User",
+        "name": "User",
+        "fields": "name:string:null"
       }
     }
   }

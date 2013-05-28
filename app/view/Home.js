@@ -1,7 +1,6 @@
 Ext.define("GS.view.Home",{
     extend: 'Ext.Panel',
     xtype: 'homepanel1',
-    alias: 'widget.kunal' ,
     config: {
         title: "HOME",
         iconCls: 'home',

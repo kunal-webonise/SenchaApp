@@ -1,5 +1,5 @@
 Ext.define('GS.view.Main', {
-    extend: 'Ext.tab.Panel',
+    extend: 'Ext.Panel',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',
@@ -10,10 +10,19 @@ Ext.define('GS.view.Main', {
 
         items: [
             {
-               xtype: 'kunal'
+               xtype: 'homepanel1'
             } ,
             {
-                xtype: 'contactForm'
+                xtype: 'panel' ,
+                html: "<div>welcome</div>"
+            } ,
+
+            {
+                type: 'userList',
+                xtype: 'list',
+                height: 400,
+                itemTpl: '<div>{title}</div>',
+               store: "User"
             }
         ]
     }

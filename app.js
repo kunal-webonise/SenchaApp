@@ -24,11 +24,25 @@ Ext.application({
     name: 'GS',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox' ,"Ext.Panel"
     ],
 
+    models:[
+        'User'
+    ],
+    stores:[
+    'User'
+    ],
     views: [
-        'Main', "Home", "Contact"
+        'Main' ,"Home"
+    ],
+
+    stores: [
+        'User'
+    ],
+
+    controllers: [
+        'users'
     ],
 
     icon: {
@@ -52,9 +66,8 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('GS.view.Main'));
+        Ext.Viewport.add(Ext.create('GS.view.Home'));
     },
 
     onUpdated: function() {
