@@ -26,10 +26,10 @@
       "parameters": {
         "appName": "GS",
         "frameworkPath": "touch",
-        "appModels": "User",
+        "appModels": "Group,Member,User",
         "appControllers": "users",
         "appStores": "User",
-        "appViews": "Blog,Contact,Home,Main"
+        "appViews": "Blog,BlogView,Contact,Home,Main"
       }
     },
     "packager.json": {
@@ -108,6 +108,26 @@
         "modelFileName": "User",
         "name": "User",
         "fields": "name:string:null"
+      }
+    },
+    "app/model/Group.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "0fadfbeb5015f7a304a0de6182fa75814bd00c01",
+      "parameters": {
+        "appName": "GS",
+        "modelFileName": "Group",
+        "name": "Group",
+        "fields": "id:string:null"
+      }
+    },
+    "app/model/Member.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "0fadfbeb5015f7a304a0de6182fa75814bd00c01",
+      "parameters": {
+        "appName": "GS",
+        "modelFileName": "Member",
+        "name": "Member",
+        "fields": "id:string:null"
       }
     }
   }

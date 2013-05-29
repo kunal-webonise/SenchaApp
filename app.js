@@ -28,6 +28,8 @@ Ext.application({
     ],
 
     models:[
+        'UserGroup',
+        'Member',
         'User'
     ],
     stores:[
@@ -38,7 +40,7 @@ Ext.application({
     ],
 
     stores: [
-        'User'
+        'User', 'UserGroup'
     ],
 
     controllers: [

@@ -1,0 +1,58 @@
+{
+    "responseData":{
+        "feed":{
+            "users":[
+                {
+                    "id":"1",
+                    "email":"kunal@yopmail.com",
+                     "members":[ {
+                         "id" : "1",
+                         "group_id": "1",
+                         "name": "demo1",
+                         "first_name": "demo first1",
+                         "last_name": "demo last1"
+                     },{
+                         "id" : "2",
+                         "group_id": "1",
+                         "name": "demo2",
+                         "first_name": "demo first2",
+                         "last_name": "demo las2t"
+                     },{
+                         "id" : "2",
+                         "group_id": "1",
+                         "name": "demo3",
+                         "first_name": "demo first3",
+                         "last_name": "demo last3"
+                     }
+                    ]
+                },
+                {
+                    "id":"2",
+                    "email":"kunal@yopmail.com",
+                    "members":[ {
+                        "id" : "4",
+                        "group_id": "2",
+                        "name": "demo1",
+                        "first_name": "demo first1",
+                        "last_name": "demo last1"
+                    },{
+                        "id" : "5",
+                        "group_id": "2",
+                        "name": "demo2",
+                        "first_name": "demo first2",
+                        "last_name": "demo las2t"
+                    },{
+                        "id" : "2",
+                        "group_id": "1",
+                        "name": "demo3",
+                        "first_name": "demo first3",
+                        "last_name": "demo last3"
+                    }
+                    ]
+                }
+            ]
+        }
+    },
+    "responseDetails":null,
+    "responseStatus":200
+}
