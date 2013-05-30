@@ -21,7 +21,6 @@ Ext.define('GS.controller.users', {
 //            console.log(data);
 //        }})
         store.load();
-        Ext.getStore('UserGroup').load();
     },
 
     onUserListTap: function( _this, index, target, record, e, eOpts){

@@ -26,10 +26,10 @@
       "parameters": {
         "appName": "GS",
         "frameworkPath": "touch",
-        "appModels": "Group,Member,User",
-        "appControllers": "users",
-        "appStores": "User",
-        "appViews": "Blog,BlogView,Contact,Home,Main"
+        "appModels": "Member,User,UserGroup",
+        "appControllers": "UserGroups,users",
+        "appStores": "User,UserGroup",
+        "appViews": "Blog,BlogView,Contact,GroupList,Home,Main"
       }
     },
     "packager.json": {

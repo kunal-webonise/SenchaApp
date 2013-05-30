@@ -7,9 +7,9 @@ Ext.define('GS.view.Main', {
             {
                 xtype: 'homepage'
             } ,
-//            {
-//                xtype: 'contactForm'
-//            },
+            {
+                xtype: 'group'
+            },
             {
 
                 xtype: 'blog',

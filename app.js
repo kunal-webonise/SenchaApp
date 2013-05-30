@@ -28,22 +28,26 @@ Ext.application({
     ],
 
     models:[
-        'UserGroup',
         'Member',
-        'User'
+        'User',
+        'UserGroup'
     ],
     stores:[
     'User'
     ],
     views: [
-        'Main' ,"Home", "Contact","Blog", "BlogView"
+
+        'Main' ,"Home", "Contact","Blog", "BlogView" , "GroupList"  ,"Members"
     ],
 
     stores: [
+
         'User', 'UserGroup'
+
     ],
 
     controllers: [
+        'UserGroups',
         'users'
     ],
 
