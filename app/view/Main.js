@@ -14,12 +14,13 @@ Ext.define('GS.view.Main', {
 
                 xtype: 'blog',
                 type:'blog'
-            },
-            {
-
-                xtype: 'testForm',
-                type:'blog'
-            }]
+            }
+//            {
+//
+//                xtype: 'testForm',
+//                type:'blog'
+//            }
+]
 
     }
 });

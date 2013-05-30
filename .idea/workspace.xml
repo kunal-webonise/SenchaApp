@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/view/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.3882979">
               <folding />
             </state>
           </provider>
@@ -88,16 +88,7 @@
       <file leaf-file-name="FormDemo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/FormDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="69" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="23" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="formController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/formController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="584" selection-end="584" vertical-scroll-proportion="0.49930653">
+            <state line="9" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,19 +151,19 @@
         <option value="$PROJECT_DIR$/touch/drfFeed.json" />
         <option value="$PROJECT_DIR$/app/view/Blog.js" />
         <option value="$PROJECT_DIR$/app/store/User.js" />
-        <option value="$PROJECT_DIR$/app/view/Main.js" />
         <option value="$PROJECT_DIR$/app/view/FormDemo.js" />
         <option value="$PROJECT_DIR$/GSData.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controller/formController.js" />
+        <option value="$PROJECT_DIR$/app/view/Main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1359" />
-    <option name="y" value="-4" />
-    <option name="width" value="1602" />
-    <option name="height" value="905" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1295" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -314,9 +305,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.pathVariables" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SenchaMovies" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -347,13 +338,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="-4" width="1602" height="905" extended-state="6" />
+    <frame x="65" y="24" width="1295" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12952381" sideWeight="0.9627164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20472442" sideWeight="0.9627164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -482,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="23" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
@@ -505,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/FormDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="69" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -526,7 +510,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/formController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="584" selection-end="584" vertical-scroll-proportion="0.49930653">
+        <state line="9" column="23" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.3882979">
           <folding />
         </state>
       </provider>
