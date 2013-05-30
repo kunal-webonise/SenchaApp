@@ -87,6 +87,44 @@
                             "last_name": "demo last3"
                         }
                     ]
+                },
+                {
+                    "id":"6",
+                    "email":"test123@weboniselab.com",
+                    "members":[ {
+                        "id" : "12",
+                        "group_id": "6",
+                        "name": "demo1",
+                        "first_name": "demo first1",
+                        "last_name": "demo last1"
+                    },{
+                        "id" : "13",
+                        "group_id": "6",
+                        "name": "demo2",
+                        "first_name": "demo first2",
+                        "last_name": "demo las2t"
+                    },{
+                        "id" : "14",
+                        "group_id": "6",
+                        "name": "demo3",
+                        "first_name": "demo first3",
+                        "last_name": "demo last3"
+                    }
+                        ,{
+                            "id" : "15",
+                            "group_id": "6",
+                            "name": "demo3",
+                            "first_name": "demo first3",
+                            "last_name": "demo last3"
+                        }
+                        ,{
+                            "id" : "16",
+                            "group_id": "6",
+                            "name": "demo3",
+                            "first_name": "demo first3",
+                            "last_name": "demo last3"
+                        }
+                    ]
                 }
             ]
         }

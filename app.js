@@ -37,7 +37,7 @@ Ext.application({
     ],
     views: [
 
-        'Main' ,"Home", "Contact","Blog", "BlogView" , "GroupList"  ,"Members"
+        'Main' ,"Home", "Contact","Blog", "BlogView" , "GroupList"  ,"Members" ,"FormDemo",
     ],
 
     stores: [
@@ -48,7 +48,8 @@ Ext.application({
 
     controllers: [
         'UserGroups',
-        'users'
+        'users',
+        'formController'
     ],
 
     icon: {
